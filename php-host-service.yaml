@@ -11,7 +11,7 @@ metadata:
 spec:
 type: NodePort
   ports:
-   nodePort: 31000
+    nodePort: 31000
     targetPort: 9000
   selector:
     io.kompose.service: php-host
