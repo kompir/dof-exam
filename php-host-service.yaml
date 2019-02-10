@@ -12,6 +12,7 @@ spec:
 type: NodePort
   ports:
   - name: "9000"
+  port: 9000
    nodePort: 31000
     targetPort: 9000
   selector:
