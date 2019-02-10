@@ -12,7 +12,6 @@ spec:
   type: NodePort
   ports:
   - name: "31000"
-    port: 31000
     nodePort: 31000
     targetPort: 31000
   selector:
