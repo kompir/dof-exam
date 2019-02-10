@@ -23,13 +23,6 @@ spec:
         name: nginx-host
         ports:
         - containerPort: 80
-        resources: {}
-        volumeMounts:
-        - mountPath: /site
-          name: nginx-host-claim0
+        resources: {}   
       restartPolicy: Always
-      volumes:
-      - name: nginx-host-claim0
-        persistentVolumeClaim:
-          claimName: nginx-host-claim0
 status: {}
