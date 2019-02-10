@@ -12,7 +12,7 @@ spec:
 type: NodePort
   ports:
   - name: "9000"
-   NodePort: 9000
+   nodePort: 31000
     targetPort: 9000
   selector:
     io.kompose.service: php-host
