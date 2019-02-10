@@ -24,12 +24,4 @@ spec:
         ports:
         - containerPort: 9000
         resources: {}
-        volumeMounts:
-        - mountPath: /site
-          name: php-host-claim0
-      restartPolicy: Always
-      volumes:
-      - name: php-host-claim0
-        persistentVolumeClaim:
-          claimName: php-host-claim0
 status: {}
