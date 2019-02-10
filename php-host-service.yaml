@@ -9,7 +9,7 @@ metadata:
     io.kompose.service: php-host
   name: php-host
 spec:
-type: NodePort
+  type: NodePort
   ports:
    - name: "9000"
     nodePort: 31000
