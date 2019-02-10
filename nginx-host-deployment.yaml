@@ -19,7 +19,7 @@ spec:
         io.kompose.service: nginx-host
     spec:
       containers:
-      - image: kompir/nginx-host
+      - image: kompir/nginx-host:%IMAGE-PLACEHOLDER%
         name: nginx-host
         ports:
         - containerPort: 80
